@@ -1,0 +1,298 @@
+{
+  "type": "FeatureCollection",
+  "columns": {},
+  "id": "MODIS/006/MOD13Q1",
+  "version": 1544102949425679,
+  "properties": {
+    "date_range": [
+      950832000000,
+      1542412800000
+    ],
+    "period_mapping": [
+      950832000000,
+      978307200000,
+      978307200000,
+      1009843200000,
+      1009843200000,
+      1041379200000,
+      1041379200000,
+      1072915200000,
+      1072915200000,
+      1104537600000,
+      1104537600000,
+      1136073600000,
+      1136073600000,
+      1167609600000,
+      1167609600000,
+      1199145600000,
+      1199145600000,
+      1230768000000,
+      1230768000000,
+      1262304000000,
+      1262304000000,
+      1293840000000,
+      1293840000000,
+      1325376000000,
+      1325376000000,
+      1356998400000,
+      1356998400000,
+      1388534400000,
+      1388534400000,
+      1420070400000,
+      1420070400000,
+      1451606400000,
+      1451606400000,
+      1483228800000,
+      1483228800000,
+      1514764800000,
+      1514764800000,
+      1524441600000
+    ],
+    "period": 0,
+    "system:visualization_0_min": "0.0",
+    "system:visualization_0_bands": "NDVI",
+    "system:is_global": 1,
+    "thumb": "https://mw1.google.com/ges/dd/images/MOD13Q1_thumb.png",
+    "description": "<p>The MOD13Q1 V6 product provides a Vegetation Index (VI) value at a per pixel basis. There are two primary vegetation layers. The first is the Normalized Difference Vegetation Index (NDVI) which is referred to as the continuity index to the existing National Oceanic and Atmospheric Administration-Advanced Very High Resolution Radiometer (NOAA-AVHRR) derived NDVI. The second vegetation layer is the Enhanced Vegetation Index (EVI) that minimizes canopy background variations and maintains sensitivity over dense vegetation conditions. The EVI also uses the blue band to remove residual atmosphere contamination caused by smoke and sub-pixel thin cloud clouds. The MODIS NDVI and EVI products are computed from atmospherically corrected bi-directional surface reflectances that have been masked for water, clouds, heavy aerosols, and cloud shadows.</p><p><b>Resolution</b><br>250 meters\n</p><p><b>Cadence</b><br>\n  16 days\n</p><p><b>Bands</b><table class=\"eecat\"><tr><th scope=\"col\">Name</th><th scope=\"col\">Units</th><th scope=\"col\">Min</th><th scope=\"col\">Max</th><th scope=\"col\">Scale</th><th scope=\"col\">Wavelength</th><th scope=\"col\">Description</th></tr><tr><td>NDVI</td><td></td><td>\n          -2000\n    </td><td>\n          10000\n    </td><td>0.0001</td><td></td><td><p>Normalized Difference Vegetation Index</p></td></tr><tr><td>EVI</td><td></td><td>\n          -2000\n    </td><td>\n          10000\n    </td><td>0.0001</td><td></td><td><p>Enhanced Vegetation Index</p></td></tr><tr><td>DetailedQA</td><td></td><td></td><td></td><td></td><td></td><td><p>VI quality indicators</p></td></tr><tr><td colspan=100>\n      Bitmask for DetailedQA\n      <ul><li>\n          Bits 0-1: VI quality (MODLAND QA Bits)\n          <ul><li>0: VI produced with good quality</li><li>1: VI produced, but check other QA</li><li>2: Pixel produced, but most probably cloudy</li><li>3: Pixel not produced due to other reasons than clouds</li></ul></li><li>\n          Bits 2-5: VI usefulness\n          <ul><li>0: Highest quality</li><li>1: Lower quality</li><li>2: Decreasing quality</li><li>4: Decreasing quality</li><li>8: Decreasing quality</li><li>9: Decreasing quality</li><li>10: Decreasing quality</li><li>12: Lowest quality</li><li>13: Quality so low that it is not useful</li><li>14: L1B data faulty</li><li>15: Not useful for any other reason/not processed</li></ul></li><li>\n          Bits 6-7: Aerosol Quantity\n          <ul><li>0: Climatology</li><li>1: Low</li><li>2: Intermediate</li><li>3: High</li></ul></li><li>\n          Bit 8: Adjacent cloud detected\n          <ul><li>0: No</li><li>1: Yes</li></ul></li><li>\n          Bit 9: Atmosphere BRDF correction\n          <ul><li>0: No</li><li>1: Yes</li></ul></li><li>\n          Bit 10: Mixed Clouds\n          <ul><li>0: No</li><li>1: Yes</li></ul></li><li>\n          Bits 11-13: Land/water mask\n          <ul><li>0: Shallow ocean</li><li>1: Land (nothing else but land)</li><li>2: Ocean coastlines and lake shorelines</li><li>3: Shallow inland water</li><li>4: Ephemeral water</li><li>5: Deep inland water</li><li>6: Moderate or continental ocean</li><li>7: Deep ocean</li></ul></li><li>\n          Bit 14: Possible snow/ice\n          <ul><li>0: No</li><li>1: Yes</li></ul></li><li>\n          Bit 15: Possible shadow\n          <ul><li>0: No</li><li>1: Yes</li></ul></li></ul></td></tr><tr><td>sur_refl_b01</td><td></td><td>\n          0\n    </td><td>\n          10000\n    </td><td>0.0001</td><td>645nm</td><td><p>Red surface reflectance</p></td></tr><tr><td>sur_refl_b02</td><td></td><td>\n          0\n    </td><td>\n          10000\n    </td><td>0.0001</td><td>858nm</td><td><p>NIR surface reflectance</p></td></tr><tr><td>sur_refl_b03</td><td></td><td>\n          0\n    </td><td>\n          10000\n    </td><td>0.0001</td><td>469nm</td><td><p>Blue surface reflectance</p></td></tr><tr><td>sur_refl_b07</td><td></td><td>\n          0\n    </td><td>\n          10000\n    </td><td>0.0001</td><td>2130nm/2105 - 2155nm</td><td><p>MIR surface reflectance</p></td></tr><tr><td>ViewZenith</td><td>Degrees</td><td>\n          0\n    </td><td>\n          18000\n    </td><td>0.01</td><td></td><td><p>View zenith angle</p></td></tr><tr><td>SolarZenith</td><td>Degrees</td><td>\n          0\n    </td><td>\n          18000\n    </td><td>0.01</td><td></td><td><p>Solar zenith angle</p></td></tr><tr><td>RelativeAzimuth</td><td>Degrees</td><td>\n          -18000\n    </td><td>\n          18000\n    </td><td>0.01</td><td></td><td><p>Relative azimuth angle</p></td></tr><tr><td>DayOfYear</td><td></td><td>\n          1\n    </td><td>\n          366\n    </td><td></td><td></td><td><p>Julian day of year</p></td></tr><tr><td>SummaryQA</td><td></td><td></td><td></td><td></td><td></td><td><p>Quality reliability of VI pixel</p></td></tr><tr><td colspan=100>\n      Bitmask for SummaryQA\n      <ul><li>\n          Bits 0-1: VI quality (MODLAND QA Bits)\n          <ul><li>0: Good data, use with confidence</li><li>1: Marginal data, useful but look at detailed QA for more information</li><li>2: Pixel covered with snow/ice</li><li>3: Pixel is cloudy</li></ul></li></ul></td></tr></table><p><b>Terms of Use</b><br><p>MODIS data and products acquired through the LP DAAC have no restrictions on subsequent use, sale, or redistribution.</p><br><b>Dataset's DOI(s)</b><ul><li><p><a href=\"https://doi.org/10.5067/MODIS/MOD13Q1.006\">https://doi.org/10.5067/MODIS/MOD13Q1.006</a></li></ul><p><b>Suggested citation(s)</b><ul><li><p>Please visit <a href=\"https://lpdaac.usgs.gov/citing_our_data\">LP DAAC 'Citing Our Data' page</a> for information on citing LP DAAC datasets.</p></li></ul><style>\n  table.eecat {\n  border: 1px solid black;\n  border-collapse: collapse;\n  font-size: 13px;\n  }\n  table.eecat td, tr, th {\n  text-align: left; vertical-align: top;\n  border: 1px solid gray; padding: 3px;\n  }\n  td.nobreak { white-space: nowrap; }\n</style>",
+    "source_tags": [
+      "modis",
+      "mod13q1",
+      "16-day",
+      "global",
+      "terra"
+    ],
+    "provider_url": "https://doi.org/10.5067/MODIS/MOD13Q1.006",
+    "title": "MOD13Q1.006 Terra Vegetation Indices 16-Day Global 250m",
+    "sample": "https://mw1.google.com/ges/dd/images/MOD13Q1_sample.png",
+    "system:visualization_0_gain": "0.0001",
+    "tags": [
+      "modis",
+      "mod13q1",
+      "16-day",
+      "global",
+      "terra",
+      "vegetation",
+      "ndvi",
+      "evi"
+    ],
+    "system:visualization_0_max": "8000.0",
+    "product_tags": [
+      "vegetation",
+      "ndvi",
+      "evi"
+    ],
+    "provider": "NASA LP DAAC at the USGS EROS Center",
+    "system:visualization_0_bias": 0,
+    "system:visualization_0_palette": "FFFFFF,CE7E45,DF923D,F1B555,FCD163,99B718,74A901,66A000,529400,3E8601,207401,056201,004C00,023B01,012E01,011D01,011301",
+    "system:visualization_0_name": "NDVI"
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": null,
+      "id": "2017_01_01",
+      "properties": {
+        "DayOfYear": 7,
+        "NDVI": -0.0054
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "id": "2017_01_17",
+      "properties": {
+        "DayOfYear": 30,
+        "NDVI": -0.01
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "id": "2017_02_02",
+      "properties": {
+        "DayOfYear": 41,
+        "NDVI": -0.0199
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "id": "2017_02_18",
+      "properties": {
+        "DayOfYear": 59,
+        "NDVI": -0.031200000000000002
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "id": "2017_03_06",
+      "properties": {
+        "DayOfYear": 70,
+        "NDVI": -0.0222
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "id": "2017_03_22",
+      "properties": {
+        "DayOfYear": 96,
+        "NDVI": 0.1418
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "id": "2017_04_07",
+      "properties": {
+        "DayOfYear": 98,
+        "NDVI": 0.1272
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "id": "2017_04_23",
+      "properties": {
+        "DayOfYear": 116,
+        "NDVI": 0.2257
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "id": "2017_05_09",
+      "properties": {
+        "DayOfYear": 130,
+        "NDVI": 0.21930000000000002
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "id": "2017_05_25",
+      "properties": {
+        "DayOfYear": 146,
+        "NDVI": 0.1859
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "id": "2017_06_10",
+      "properties": {
+        "DayOfYear": 171,
+        "NDVI": 0.1461
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "id": "2017_06_26",
+      "properties": {
+        "DayOfYear": 187,
+        "NDVI": 0.1414
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "id": "2017_07_12",
+      "properties": {
+        "DayOfYear": 194,
+        "NDVI": 0.1481
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "id": "2017_07_28",
+      "properties": {
+        "DayOfYear": 210,
+        "NDVI": 0.1285
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "id": "2017_08_13",
+      "properties": {
+        "DayOfYear": 226,
+        "NDVI": 0.12890000000000001
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "id": "2017_08_29",
+      "properties": {
+        "DayOfYear": 242,
+        "NDVI": 0.12610000000000002
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "id": "2017_09_14",
+      "properties": {
+        "DayOfYear": 267,
+        "NDVI": 0.1273
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "id": "2017_09_30",
+      "properties": {
+        "DayOfYear": 283,
+        "NDVI": 0.129
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "id": "2017_10_16",
+      "properties": {
+        "DayOfYear": 302,
+        "NDVI": 0.1371
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "id": "2017_11_01",
+      "properties": {
+        "DayOfYear": 320,
+        "NDVI": 0.13490000000000002
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "id": "2017_11_17",
+      "properties": {
+        "DayOfYear": 324,
+        "NDVI": 0.136
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "id": "2017_12_03",
+      "properties": {
+        "DayOfYear": 349,
+        "NDVI": -0.019
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "id": "2017_12_19",
+      "properties": {
+        "DayOfYear": 3,
+        "NDVI": -0.0167
+      }
+    }
+  ]
+}
